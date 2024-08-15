@@ -9,7 +9,7 @@ function App() {
     <Router basename="/cotizacion-app-react">
       <div className="App">
         <Routes>
-          <Route path="/" element={<Navigate to="/cotizacion-app" />} />   
+          <Route path="/" element={<Navigate to="/cotizacion-app-react" />} />   
           <Route path="/cotizaciones" element={<CotizacionesGuardadas />} />       
           <Route path="/cotizacion/:id" element={<CotizacionApp />} />
         </Routes>
