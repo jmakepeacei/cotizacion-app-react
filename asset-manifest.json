@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/cotizacion-app-react/static/css/main.9f7d8762.css",
-    "main.js": "/cotizacion-app-react/static/js/main.bd38e38d.js",
-    "static/js/239.d0bd9f9c.chunk.js": "/cotizacion-app-react/static/js/239.d0bd9f9c.chunk.js",
-    "static/js/213.706e2099.chunk.js": "/cotizacion-app-react/static/js/213.706e2099.chunk.js",
-    "static/js/732.df679348.chunk.js": "/cotizacion-app-react/static/js/732.df679348.chunk.js",
-    "index.html": "/cotizacion-app-react/index.html",
-    "main.9f7d8762.css.map": "/cotizacion-app-react/static/css/main.9f7d8762.css.map",
-    "main.bd38e38d.js.map": "/cotizacion-app-react/static/js/main.bd38e38d.js.map",
-    "239.d0bd9f9c.chunk.js.map": "/cotizacion-app-react/static/js/239.d0bd9f9c.chunk.js.map",
-    "213.706e2099.chunk.js.map": "/cotizacion-app-react/static/js/213.706e2099.chunk.js.map",
-    "732.df679348.chunk.js.map": "/cotizacion-app-react/static/js/732.df679348.chunk.js.map"
+    "main.css": "./static/css/main.9f7d8762.css",
+    "main.js": "./static/js/main.821a13a2.js",
+    "static/js/239.d0bd9f9c.chunk.js": "./static/js/239.d0bd9f9c.chunk.js",
+    "static/js/213.706e2099.chunk.js": "./static/js/213.706e2099.chunk.js",
+    "static/js/732.df679348.chunk.js": "./static/js/732.df679348.chunk.js",
+    "index.html": "./index.html",
+    "main.9f7d8762.css.map": "./static/css/main.9f7d8762.css.map",
+    "main.821a13a2.js.map": "./static/js/main.821a13a2.js.map",
+    "239.d0bd9f9c.chunk.js.map": "./static/js/239.d0bd9f9c.chunk.js.map",
+    "213.706e2099.chunk.js.map": "./static/js/213.706e2099.chunk.js.map",
+    "732.df679348.chunk.js.map": "./static/js/732.df679348.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9f7d8762.css",
-    "static/js/main.bd38e38d.js"
+    "static/js/main.821a13a2.js"
   ]
 }
