@@ -1,0 +1,228 @@
+.cotizacion-app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.imagen-card {
+  display: flex;
+  align-items: top;
+}
+
+.buttons-card {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+}
+
+.logo-imagen {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.hidden-input {
+  display: none;
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.contenedor {
+  width: 100%;
+}
+
+.grid-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /*vertical*/
+  align-items: left; /*horizontal*/
+  gap: 5px;
+}
+
+.grid-1 input {
+  height: 30px;
+  line-height: 30px;
+  text-align: left;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.input-empresa {
+  width: 300px;
+}
+
+.input-direcion {
+  width: 350px;
+}
+
+.input-telefono {
+  width: 200px;
+}
+
+.input-pais {
+  width: 150px;
+}
+
+.input-correo {
+  width: 250px;
+}
+
+.input-identificador {
+  width: 100px;
+}
+
+.input-nombre {
+  width: 610px;
+}
+
+.input-cantidad {
+  width: 70px;
+}
+
+.input-descripcion {
+  width: 440px;
+}
+
+.input-valorunitario {
+  width: 90px;
+}
+
+.grid-2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.grid-4 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.grid-5 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  font-size: 14px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-full {
+  width: 100%;
+}
+
+.productos-lista {
+  margin-top: 20px;
+}
+
+.productos-lista .grid-5 {
+  margin-bottom: 10px;
+  padding: 5px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.grid-5 {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+}
+
+.btn-info {
+  background-color: #17a2b8;
+  color: white;
+}
+
+.btn-info:hover {
+  background-color: #138496;
+}
+
+.cotizaciones-guardadas {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.lista-cotizaciones {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1em;
+  margin-top: 20px;
+}
+
+.cotizacion-item {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 31.89%;
+}
+
+.cotizacion-item:hover {
+  background-color: #e9ecef;
+}
